@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POWER GYM | Forge Your Legacy</title>
+    <meta name="description" content="Join the elite at POWER GYM. State-of-the-art equipment, world-class trainers, and an uncompromising atmosphere. Claim your free trial today.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <nav id="navbar" class="sticky-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="text-white">POWER</span><span class="text-red"> GYM</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#plans">Memberships</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#plans" class="btn btn-primary animate-btn">Join Now</a>
+                <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero-section">
+        <div class="video-container">
+            <!-- Background Image -->
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop" alt="Power Gym Aesthetic Workout" class="bg-video">
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">FORGE YOUR LEGACY. <br><span class="text-red">NO EXCUSES.</span></h1>
+            <p class="hero-subtitle">Join the elite. State-of-the-art equipment, world-class trainers, and a community built on breaking limits.</p>
+            <div class="hero-actions">
+                <a href="#plans" class="btn btn-primary animate-btn pulse-glow">Join Now</a>
+                <a href="#contact" class="btn btn-outline animate-btn">Claim Free Trial</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SPECIAL OFFER BANNER (NEW) -->
+    <div id="special-offer" class="offer-banner">
+        <div class="container offer-flex">
+            <div class="offer-text">
+                <i class="fas fa-fire text-red"></i> 
+                <strong>Limited Time Offer:</strong> Get 30% OFF on Yearly Memberships!
+            </div>
+            <div class="offer-countdown" id="countdown-timer">
+                <div class="time-box"><span id="days">02</span><small>Days</small></div>:
+                <div class="time-box"><span id="hours">14</span><small>Hours</small></div>:
+                <div class="time-box"><span id="minutes">35</span><small>Mins</small></div>:
+                <div class="time-box"><span id="seconds">59</span><small>Secs</small></div>
+            </div>
+            <a href="#plans" class="btn btn-sm btn-white">Claim Discount</a>
+        </div>
+    </div>
+
+    <!-- ABOUT US & WHY CHOOSE US -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop" alt="Gym Motivation">
+                    <div class="red-glare"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">BUILT FOR <span class="text-red">GREATNESS</span></h2>
+                    <p class="section-desc text-left">Founded on blood, sweat, and iron, we built this sanctuary for those who demand more from themselves. We don't just build bodies; we build discipline.</p>
+                    
+                    <h3 class="subsection-title">Why Choose Us?</h3>
+                    <ul class="why-us-list">
+                        <li>
+                            <div class="icon-box"><i class="fas fa-clock"></i></div>
+                            <div class="why-text">
+                                <strong>24/7 Access</strong>
+                                <p>Uncompromising schedules demand uncompromising access.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fas fa-trophy"></i></div>
+                            <div class="why-text">
+                                <strong>IFBB Pro Coaches</strong>
+                                <p>Learn directly from certified champions.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fas fa-cogs"></i></div>
+                            <div class="why-text">
+                                <strong>Biomechanical Equipment</strong>
+                                <p>Imported machines engineered for maximum muscle engagement.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE STATS / SOCIAL PROOF 1 (NEW) -->
+    <section class="stats-section bg-darker">
+        <div class="container">
+            <div class="stats-grid" id="stats-counter">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h2 class="counter" data-target="500">0</h2><span>+</span>
+                    <p>Active Members</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h2 class="counter" data-target="10">0</h2><span>+</span>
+                    <p>Elite Trainers</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h2 class="counter" data-target="5">0</h2><span>+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h2>4.9</h2>
+                    <p>Google Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">OUR <span class="text-red">ARSENAL</span></h2>
+            <p class="section-desc">Experience world-class facilities designed for maximum results.</p>
+            <div class="services-grid">
+                <div class="service-card shine-effect">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Weight Training</h3>
+                    <p>Free weights, racks, and heavy-duty machines to pack on mass.</p>
+                </div>
+                <div class="service-card shine-effect">
+                    <i class="fas fa-running"></i>
+                    <h3>Cardio Zone</h3>
+                    <p>HIIT treadmills, stairmasters, and rowers for explosive stamina.</p>
+                </div>
+                <div class="service-card shine-effect">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>Personal Training</h3>
+                    <p>1-on-1 brutal, bespoke coaching to force your evolution.</p>
+                </div>
+                <div class="service-card shine-effect">
+                    <i class="fas fa-om"></i>
+                    <h3>Yoga & Zumba</h3>
+                    <p>Recovery and flexibility studios with immersive sound systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBERSHIP PLANS SECTION -->
+    <section id="plans" class="section bg-darker">
+        <div class="container text-center">
+            <h2 class="section-title">JOIN THE <span class="text-red">ELITE</span></h2>
+            <p class="section-desc">Choose your weapon. No hidden fees. No compromises.</p>
+            
+            <div class="pricing-grid">
+                <!-- Tier 1 -->
+                <div class="pricing-card">
+                    <h3>Kickstarter</h3>
+                    <div class="price">Rs. 3000<span class="duration">/mo</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check text-red"></i> Standard Gym Access</li>
+                        <li><i class="fas fa-check text-red"></i> Locker Room</li>
+                        <li><i class="fas fa-times text-muted"></i> Personal Trainer</li>
+                        <li><i class="fas fa-times text-muted"></i> Group Classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline animate-btn w-100">Choose Plan</a>
+                </div>
+
+                <!-- Tier 2 (Highlighted) -->
+                <div class="pricing-card premium outline-glow">
+                    <div class="badge glow">Most Popular</div>
+                    <h3>The Champion</h3>
+                    <div class="price">Rs. 25000<span class="duration">/yr</span></div>
+                    <div class="discount-offer">Best Value - Save 30%! 🔥</div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check text-red"></i> 24/7 VIP Access</li>
+                        <li><i class="fas fa-check text-red"></i> Premium Showers</li>
+                        <li><i class="fas fa-check text-red"></i> 1 Free PT Session</li>
+                        <li><i class="fas fa-check text-red"></i> All Group Classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary animate-btn w-100">Choose Plan</a>
+                </div>
+
+                <!-- Tier 3 -->
+                <div class="pricing-card">
+                    <h3>Elite VIP</h3>
+                    <div class="price">Rs. 50000<span class="duration">/yr</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check text-red"></i> 24/7 VIP Access</li>
+                        <li><i class="fas fa-check text-red"></i> Dedicated Locker</li>
+                        <li><i class="fas fa-check text-red"></i> Unlimited PT Consults</li>
+                        <li><i class="fas fa-check text-red"></i> Custom Diet Plans</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline animate-btn w-100">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINERS SECTION -->
+    <section id="trainers" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">MEET THE <span class="text-red">STRENGTH COACHES</span></h2>
+            <p class="section-desc">Elite professionals dedicated to your physical transformation.</p>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&auto=format&fit=crop&grayscale" alt="Alex Mercer">
+                        <div class="trainer-overlay">
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Session</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Alex Mercer</h3>
+                        <p class="text-red fw-bold">Head Strength Coach</p>
+                        <p class="text-muted"><i class="fas fa-award"></i> Powerlifting & Hypertrophy</p>
+                        <p class="exp">8 Years Experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500&auto=format&fit=crop&grayscale" alt="Sarah Khan">
+                        <div class="trainer-overlay">
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Session</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Khan</h3>
+                        <p class="text-red fw-bold">Performance Specialist</p>
+                        <p class="text-muted"><i class="fas fa-fire"></i> Crossfit & Mobility</p>
+                        <p class="exp">5 Years Experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&auto=format&fit=crop&grayscale" alt="David Lee">
+                        <div class="trainer-overlay">
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Session</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Lee</h3>
+                        <p class="text-red fw-bold">Conditioning Coach</p>
+                        <p class="text-muted"><i class="fas fa-heartbeat"></i> Elite Cardio & Fat Loss</p>
+                        <p class="exp">7 Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS (SOCIAL PROOF 2) -->
+    <section id="testimonials" class="section bg-darker">
+        <div class="container text-center">
+            <h2 class="section-title">REAL <span class="text-red">RESULTS</span></h2>
+            <p class="section-desc">Don't take our word for it. Look at the transformations.</p>
+            
+            <div class="testimonial-slider-container">
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testi-content">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"I walked in intimidated, but the staff pushed me past what I thought was possible. 40lbs down and never going back. Best investment I've ever made."</p>
+                            <h4>- Sarah K.</h4>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testi-content">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"The equipment is top tier. The environment is aggressive but extremely welcoming. You come here to work, and the results show."</p>
+                            <h4>- Ahmed M.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FITNESS TOOLS (CALCULATORS) -->
+    <section id="tools" class="section">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2 class="section-title">FITNESS <span class="text-red">TOOLS</span></h2>
+                <p class="section-desc">Know your numbers to dominate your goals.</p>
+            </div>
+            
+            <div class="tools-container">
+                <div class="tool-tabs">
+                    <button class="tab-btn active" onclick="openTool(event, 'bmiTool')">BMI Calculator</button>
+                    <button class="tab-btn" onclick="openTool(event, 'calorieTool')">Calories Calculator</button>
+                </div>
+                
+                <!-- BMI TOOL -->
+                <div id="bmiTool" class="tool-content active">
+                    <div class="tool-grid">
+                        <div class="tool-info">
+                            <h3>Body Mass Index (BMI)</h3>
+                            <p>Check if you are at a healthy weight relative to your height.</p>
+                        </div>
+                        <div class="tool-box">
+                            <form id="bmi-form">
+                                <div class="input-group">
+                                    <input type="number" id="weight" placeholder="Weight (kg)" required>
+                                    <input type="number" id="height" placeholder="Height (cm)" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary animate-btn w-100">Calculate BMI</button>
+                                <div id="bmi-result" class="result-box hidden">
+                                    Your BMI is <span id="bmi-value"></span> - <strong id="bmi-status" class="text-red"></strong>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CALORIE TOOL (NEW) -->
+                <div id="calorieTool" class="tool-content" style="display:none;">
+                    <div class="tool-grid">
+                        <div class="tool-info">
+                            <h3>Daily Calorie Target</h3>
+                            <p>Find out exactly how many calories you need to maintain, lose, or gain weight.</p>
+                        </div>
+                        <div class="tool-box">
+                            <form id="calorie-form">
+                                <div class="input-group">
+                                    <input type="number" id="c-age" placeholder="Age" required>
+                                    <select id="c-gender" required>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <input type="number" id="c-weight" placeholder="Weight (kg)" required>
+                                    <input type="number" id="c-height" placeholder="Height (cm)" required>
+                                </div>
+                                <select id="c-activity" class="full-width-select" required>
+                                    <option value="1.2">Sedentary (Little to no exercise)</option>
+                                    <option value="1.375">Lightly active (Exercise 1-3 days/week)</option>
+                                    <option value="1.55">Moderately active (Exercise 3-5 days/week)</option>
+                                    <option value="1.725">Very active (Hard exercise 6-7 days/week)</option>
+                                </select>
+                                <button type="submit" class="btn btn-primary animate-btn w-100 mt-3">Calculate Calories</button>
+                                <div id="calorie-result" class="result-box hidden">
+                                    Maintenance: <strong id="cal-maint" class="text-white">0</strong> kcal<br>
+                                    Fat Loss: <strong id="cal-loss" class="text-red">0</strong> kcal
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIGH-OCTANE GALLERY -->
+    <section id="gallery" class="section bg-darker">
+        <div class="container text-center">
+            <h2 class="section-title">INSIDE THE <span class="text-red">ARENA</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=600&auto=format&fit=crop" alt="Gym weights"><i class="fas fa-play play-overlay"></i></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&auto=format&fit=crop" alt="Gym machine"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&auto=format&fit=crop" alt="Workout class"><i class="fas fa-play play-overlay"></i></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=600&auto=format&fit=crop" alt="Gym floor"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & TIMINGS -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">CLAIM YOUR <span class="text-red">FREE TRIAL</span></h2>
+            <p class="section-desc text-center">Take the first step. Fill out the form below or visit us directly.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="sleek-form">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <textarea rows="4" placeholder="Your Goal (e.g. Lose 10kg, Build Muscle)" required></textarea>
+                        <button type="submit" class="btn btn-primary animate-btn pulse-glow">UNLEASH YOUR POTENTIAL</button>
+                    </form>
+                </div>
+                <div class="contact-info-wrapper">
+                    <div class="info-card">
+                        <h3><i class="fas fa-map-marker-alt text-red"></i> Location</h3>
+                        <p>123 Fitness Avenue, Main Boulevard, City Elite District</p>
+                    </div>
+                    <div class="info-card">
+                        <h3><i class="fas fa-bullhorn text-red"></i> Contact</h3>
+                        <p>+92 319 3465895<br>join@powergym.com</p>
+                    </div>
+                    <div class="info-card timings-card border-red">
+                        <h3 class="text-red"><i class="fas fa-clock"></i> Timings</h3>
+                        <ul class="timing-list">
+                            <li><span>Mon - Sat:</span> <span>6:00 AM - 11:00 PM</span></li>
+                            <li><span>Ladies Only:</span> <span>10:00 AM - 2:00 PM</span></li>
+                            <li><span>Sunday:</span> <span class="text-muted">Closed for Recovery</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="logo"><span class="text-white">POWER</span><span class="text-red"> GYM</span></h2>
+                    <p>Designed for the relentless. Elite facilities, pro coaching, one mindset.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Arsenal</a></li>
+                        <li><a href="#plans">Memberships</a></li>
+                        <li><a href="#tools">Calculators</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Gym Rules</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 POWER GYM. All Rights Reserved. Stay Strong.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a href="https://wa.me/923193465895" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
